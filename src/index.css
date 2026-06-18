@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-50: #ebfef0;
+  --color-brand-100: #d0fbe0;
+  --color-brand-200: #a4f5c3;
+  --color-brand-300: #6bea9f;
+  --color-brand-400: #49db71;
+  --color-brand-500: #35cf57;
+  --color-brand-600: #39c14b;
+  --color-brand-700: #299b38;
+  --color-brand-800: #247b30;
+  --color-brand-900: #1f6429;
+  --color-brand-950: #0d3813;
+}
+
+/* Custom base styles for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

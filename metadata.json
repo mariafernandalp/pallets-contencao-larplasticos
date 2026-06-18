@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Lar Plásticos B2B -\u003e Pallet de Contenção \u003c- Landing Page",
+  "description": "Página de alta conversão B2B focada em pallets de contenção de rotomoldagem, adequados a normas ambientais e segurança.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
