@@ -52,10 +52,11 @@ export default function VideoShowcase() {
               <div className="w-full aspect-[9/16] bg-slate-200 rounded-2xl overflow-hidden relative shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2">
                 {video.hasVideoFile ? (
                   <video 
-                    src={`/${video.videoId}.mp4`} 
+                    src={`/${video.videoId}.mp4#t=0.001`} 
                     className="w-full h-full object-cover" 
                     controls 
                     playsInline 
+                    preload="metadata"
                   />
                 ) : (
                   <>
